@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: org.intuit.scoreservice.controllers.ScoreControllerTests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.497 s <<< FAILURE! -- in org.intuit.scoreservice.controllers.ScoreControllerTests
+org.intuit.scoreservice.controllers.ScoreControllerTests.testPublishScore -- Time elapsed: 0.471 s <<< ERROR!
+junit.framework.AssertionFailedError: expected:<202 ACCEPTED> but was:<500 INTERNAL_SERVER_ERROR>
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.failNotEquals(Assert.java:282)
+	at junit.framework.Assert.assertEquals(Assert.java:64)
+	at junit.framework.Assert.assertEquals(Assert.java:71)
+	at org.intuit.scoreservice.controllers.ScoreControllerTests.testPublishScore(ScoreControllerTests.java:49)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+org.intuit.scoreservice.controllers.ScoreControllerTests.testGetTopScores -- Time elapsed: 0.008 s <<< ERROR!
+junit.framework.AssertionFailedError: expected:<200 OK> but was:<500 INTERNAL_SERVER_ERROR>
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.failNotEquals(Assert.java:282)
+	at junit.framework.Assert.assertEquals(Assert.java:64)
+	at junit.framework.Assert.assertEquals(Assert.java:71)
+	at org.intuit.scoreservice.controllers.ScoreControllerTests.testGetTopScores(ScoreControllerTests.java:63)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+

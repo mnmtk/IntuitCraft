@@ -1,0 +1,4 @@
+org/intuit/scoreservice/services/ScoreServiceTests.class
+org/intuit/scoreservice/controllers/PlayerControllerTest.class
+org/intuit/scoreservice/controllers/ScoreControllerTests.class
+org/intuit/AppTest.class
