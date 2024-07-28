@@ -4,6 +4,5 @@ player’s score to a topic (you can replace the topic with a flat file). You ar
 that when invoked will return the top 5 scores and the names of the players who attained that score.
 You can use any database that you want.
 Instructions to the candidate:
-1. We are interested in your approach to the problem. It is alright if you don’t have a beautiful PPT
-2. We would like to see working code and at least a few key unit tests.
+We would like to see working code and at least a few key unit tests.
 Ensure is your code is organized well and is production grade
